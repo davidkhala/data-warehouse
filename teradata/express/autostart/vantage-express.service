@@ -1,0 +1,18 @@
+[Unit]
+Description=vm1
+After=network.target virtualbox.service
+Before=runlevel2.target shutdown.target
+[Service]
+User=root
+Group=root
+Type=forking
+Restart=no
+TimeoutSec=5min
+IgnoreSIGPIPE=no
+KillMode=process
+GuessMainPID=no
+RemainAfterExit=yes
+ExecStart=/usr/bin/VBoxManage startvm vantage-express --type headless
+ExecStop=/usr/bin/VBoxManage controlvm vantage-express savestate
+[Install]
+WantedBy=multi-user.target
