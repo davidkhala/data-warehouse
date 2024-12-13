@@ -8,8 +8,4 @@
 In Teradata, [BTEQ](./BTEQ.md) and [FLD](./FLD.md) scripts are used for data loading and massaging.
 
 
-# Reference
-[forgetcode.com: blogs for syntax](https://forgetcode.com/Teradata/1298-Common-Table-Expressions-CTE)
 
-## Exit Teradata
-[Blueprint: Teradata to ADB](https://docs.oracle.com/en/solutions/migrate-teradata/index.html#GUID-1C7EA13E-40D7-4A75-A479-F723D2D6DB33)
