@@ -1,0 +1,2 @@
+snowflake notebook 没有专属文件类型
+- notebook文件以.txt后缀存在在snowflake里
